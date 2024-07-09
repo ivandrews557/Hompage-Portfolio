@@ -2,7 +2,7 @@
     --branding-color: #2CAF1E;
     --heading-font-family: "Playfair Display", serif;
     --default-font-family: "Poppins", sans-serif;
-     background: #9ADBB9;
+    background: #9ADBB9;
 }
 
 body {
@@ -43,6 +43,14 @@ p {
     text-align: center;
 }
 
+
+.about-section container{
+    background: #FDF6C4;
+    text-align: center;
+    padding: 170px 50px;
+    font-size: 50px;
+    line-height: 1.5;
+}
 
 .homepage {
     background: #FDF6C4;
@@ -93,6 +101,11 @@ div {
     border-radius: 4px;
 }
 
+
+.img-fan {
+    max-width: 400px;
+    border-radius: 4px;
+}
 
 .primary-link {
     border-radius: 4px;
