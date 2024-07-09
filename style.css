@@ -33,6 +33,10 @@ h2 {
     font-size: 50px;
 }
 
+h4 {
+    font-size: 30px;
+}
+
 p {
     font-weight: normal;
     background: #FDF6C4;
@@ -89,6 +93,7 @@ html {
 
 div {
     display: block;
+    unicode-bidi: isolate;
 }
 
 
@@ -117,6 +122,47 @@ nav a {
 nav a:hover,
 nav li.active a {
   color: var(--branding-color);
+}
+
+
+footer {
+    margin: 60px 0;
+}
+
+footer .contact-box {
+    background: var(--secondary-color);
+    padding: 30px 170px;
+    border-radius: 10px;
+}
+
+
+footer .contact-box p {
+    margin: 0;
+}
+
+footer .email-link {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+footer .email-link:hover {
+    color: var(--branding-color);
+}
+
+footer .social-links a {
+    margin: 0 20px;
+    color: purple;
+    background: var(--secondary-color);
+    padding: 10px 14px;
+    border-radius: 50%;
+    font-size: 30px;
+    transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+    color: white;
+    background: var(--branding-color);
 }
 
 
@@ -204,9 +250,23 @@ nav li.active a {
     box-sizing: border-box;
 }
 
+.justify-content-center {
+    justify-content: center;
+}
 
+.d-flex {
+    display: flex;
+}
 
+.mb-5 {
+    margin-bottom: 3rem;
+}
 
+@media(min-width: 768px) {
+    .d-Md-flex {
+        display: flex;
+    }
+}
 
 
 
